@@ -1,6 +1,6 @@
 <?php
 
-require( APP_PATH.'/http/http.class.php' );
+require( 'http/http.class.php' );
 
 class htmlParse
 {
