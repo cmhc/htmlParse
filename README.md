@@ -9,7 +9,7 @@ html解析器
 	require( 'http/http.class.php' );
 	require( 'htmlParse.class.php' );
 >然后我们需要实例化这个类
-		$HP = new htmlParse();//创建一个html解析对象
+	$HP = new htmlParse();//创建一个html解析对象
 >实例化这个htmlParse类的时候，实际上http类已经在htmlParse类里面实例化了
 >然后我们可能还需要设置一下url地址，设置url地址的时候，实际上就已经将网页下载下来了
 	$HP->setUrl("http://www.baidu.com")
