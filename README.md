@@ -12,7 +12,7 @@ html解析器
 	$HP = new htmlParse();//创建一个html解析对象
 >实例化这个htmlParse类的时候，实际上http类已经在htmlParse类里面实例化了
 >然后我们可能还需要设置一下url地址，设置url地址的时候，实际上就已经将网页下载下来了
-	$HP->setUrl("http://www.baidu.com")
+	$HP->setUrl("http://www.ttwrite.com")
 >然后，使用:
 	$HP->getMainContent();
 >作用就是获取网页里面最主要的内容
